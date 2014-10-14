@@ -6,7 +6,12 @@
 .hg
 
 *.komodoproject
+.idea/
+.settings/
+.buildpath
 .project
+*.sublime-project
+*.sublime-workspace	
 .hgignore
 
 .komodotools/

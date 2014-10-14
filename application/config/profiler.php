@@ -11,7 +11,19 @@
 |
 */
 
+$config = array(
 
+	'config' 				=> false,
+	'queries' 				=> false,
+	'controller_info' 		=> false,
+	'get'			  		=> false,
+	'http_headers'			=> false,
+	'memory_usage'			=> false,
+	'post'					=> false,
+	'uri_string'			=> false,
+	'query_toggle_count'	=> false,
+
+);
 
 /* End of file profiler.php */
 /* Location: ./application/config/profiler.php */
