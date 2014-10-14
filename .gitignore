@@ -10,7 +10,6 @@
 .hgignore
 
 .komodotools/
-user_guide/*
 
 application/cache/*
 !application/cache/index.html
