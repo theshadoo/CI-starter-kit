@@ -38,7 +38,15 @@
 |
 */
 
+// example: '/en/about' => use controller 'about'
+$route['^fr/(.+)$'] = "$1";
+$route['^en/(.+)$'] = "$1";
+
 $route['default_controller'] = "home";
+
+$route['^fr/$'] = $route['default_controller'];
+$route['^en/$'] = $route['default_controller'];
+
 $route['404_override'] = '';
 
 

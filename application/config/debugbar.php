@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$config['debugbar_enabled']   = TRUE;
+$config['debugbar_enabled']   = true;
 
 $config['debugbar_sections'] = array(
 

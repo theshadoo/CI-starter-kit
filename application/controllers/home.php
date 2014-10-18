@@ -1,13 +1,13 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends CI_Controller {
 
+
+class Home extends Public_Controller {
 
 
 	public function __construct()
 	{
 		parent::__construct();
-
 	}
 
 	/**
@@ -27,6 +27,11 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->lang->load('error');
+		$this->config->load('i18n');
+
+		echo __('form_select_table');
+
 		$this->load->view('home_message');
 	}
 }
